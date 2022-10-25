@@ -41,3 +41,19 @@
     width: 70%;
     padding: 30%;
 }
+
+.img6{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5%;
+    padding: 5%;
+}
+
+.img7{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1%;
+    padding: 1%;
+}
