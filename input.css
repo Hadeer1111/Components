@@ -9,3 +9,11 @@
     width: 30%;
     padding: 10%;
 }
+
+.img2{
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 10%;
+}
