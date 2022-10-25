@@ -622,6 +622,18 @@ video {
   margin-left: 10rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-80 {
+  margin-left: 20rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -632,6 +644,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
