@@ -52,21 +52,31 @@
 
 .img7{
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 1%;
-    padding: 1%;
+    width: 50%;
+    padding: 5%;
+}
+
+.img8{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 10%;
 }
 
 .absolute{
-    width: 20%;
-    padding: 20%;
+    width: 18%;
+    padding: 18%;
     background-color: black;
     position:absolute;
-    left: -1 * 20% * 0.5;
-    top: -1 * 20% * 0.5
+    left: calc(-1 * 20% * 0.6);
+    top: calc(-1 * 20% * 0.6);
+    transform: rotate(50deg);
 }
 
 .relative{
     position:relative;
 }
+
