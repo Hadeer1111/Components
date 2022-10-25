@@ -557,38 +557,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 976px) {
-  .container {
-    max-width: 976px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
-.relative {
-  position: relative;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -598,44 +566,44 @@ video {
   margin-left: 2.5rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-60 {
-  margin-left: 15rem;
-}
-
-.mr-40 {
-  margin-right: 10rem;
-}
-
-.mr-20 {
-  margin-right: 5rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
 .ml-3 {
   margin-left: 0.75rem;
 }
 
-.ml-80 {
-  margin-left: 20rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .ml-5 {
   margin-left: 1.25rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -646,8 +614,16 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -668,16 +644,12 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.place-self-center {
-  place-self: center;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .pt-6 {
@@ -716,4 +688,28 @@ video {
   background-repeat: no-repeat;
   width: 50%;
   padding: 10%;
+}
+
+.img3{
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  padding: 100%;
+}
+
+.img4{
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 95%;
+}
+
+.img5{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  padding: 30%;
 }
